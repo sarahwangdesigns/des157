@@ -67,4 +67,5 @@ a:visited{
 
 a:hover{
     background-color: cyan;
+    text-decoration: underline;
 }
