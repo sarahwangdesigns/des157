@@ -66,5 +66,8 @@ a:visited{
 
 a:hover{
     background-color: cyan;
-    text-decoration: underline;
+}
+
+#footer a:hover{
+  text-decoration: underline;
 }
