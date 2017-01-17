@@ -11,13 +11,13 @@ console.log("Testing Console");
 var x = 400;
 var y = 125;
 
-function setup("Testing Console") {
+function setup() {
   createCanvas(800, 250);
   background(255);
   cursor(CROSS);
 }
 
-var draw = function() {
+function draw() {
   if (mouseIsPressed) {
    background (0);
    fill(255);
