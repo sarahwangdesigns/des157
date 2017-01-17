@@ -47,6 +47,7 @@ footer {
     background-color: #00ffff;
     text-align: center;
     font-size: 14px;
+    text-decoration: underline;
 }
 
 li {
@@ -66,5 +67,4 @@ a:visited{
 
 a:hover{
     background-color: cyan;
-    text-decoration: underline;
 }
