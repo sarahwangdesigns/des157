@@ -8,9 +8,6 @@
 
 console.log("Testing Console");
 
-var x = 400;
-var y = 125;
-
 function setup() {
   createCanvas(800, 250);
   background(255);
@@ -27,9 +24,9 @@ function draw() {
    noStroke();
    fill("cyan");
    rectMode(CENTER);
-   rect(x,y,800,250);
+   rect(400, 125, 800, 250);
    fill(0);
    textSize(48);
    text("Sarah Wang", 85, 135);
  }
-};
+}
