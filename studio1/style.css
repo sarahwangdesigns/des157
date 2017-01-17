@@ -55,16 +55,15 @@ li {
 }
 
 a:link {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
 a:visited{
-    color: #ffffff;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
 }
 
 a:hover{
-    background-color: cyan;
-    text-decoration: none;
+    background-color: cyan;\
 }
