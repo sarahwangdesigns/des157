@@ -61,7 +61,7 @@ a:link {
 
 a:visited{
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover{
