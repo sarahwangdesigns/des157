@@ -10,11 +10,19 @@ console.log("Testing Console");
 
 function setup() {
   createCanvas(800, 250);
-  background(255);
   cursor(CROSS);
 }
 
 function draw() {
+
+  fill(0);
+textSize(12);
+textFont("Georgia");
+text("Georgia", 12, 30);
+textFont("Helvetica");
+text("Helvetica", 12, 60);
+
+
   if (mouseIsPressed) {
    background (0);
    fill(255);
@@ -27,6 +35,7 @@ function draw() {
    rect(400, 125, 800, 250);
    fill(0);
    textSize(48);
+   textFont("Helvetica");
    text("Sarah Wang", 85, 135);
  }
 }
