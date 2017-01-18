@@ -44,7 +44,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 10px;
-    background-color: #000000;
+    background-color: cyan;
     text-align: center;
     font-size: 14px;
 }
@@ -65,5 +65,5 @@ a:visited{
 }
 
 a:hover{
-    background-color: cyan;
+    background-color: white;
 }
