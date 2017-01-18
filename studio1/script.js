@@ -15,11 +15,11 @@ function setup() {
 }
 
 function draw() {
-  if (mouseIsPressed) {
+  if (mouseOver) {
    background (0);
    fill(255);
    text("DES 157 | Winter 2017 | Glenda Drew", 500, 125);
- } else {
+ } else (mouseOut){
    background (255);
    noStroke();
    fill("cyan");
