@@ -8,11 +8,11 @@ html {
     cursor: crosshair;
 }
 
-/*header {
+header {
   margin: 0 auto;
   padding: 0 auto;
   max-width: 800px;
-}*/
+}
 
 body {
     max-width: 600px;
