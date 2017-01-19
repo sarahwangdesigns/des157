@@ -38,7 +38,6 @@ article {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    text-align: left;
     margin-top: 100px;
 }
 
@@ -47,12 +46,15 @@ p {
     font-size: 12px;
     max-width: 600px;
     font-family: 'Arvo', serif;
+    text-align: left;
 }
 
 h3 {
   font-family: 'Anton', sans-serif;
   padding: 10px;
   background-color: cyan;
+  max-width: 600px;
+  text-align: center;
 }
 
 h4 {
