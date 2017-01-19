@@ -75,7 +75,7 @@ div a:hover {
 }
 
 footer a:link {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -85,5 +85,6 @@ footer a:visited {
 }
 
 footer a:hover {
+  color: #ffffff;
   background-color: #000000;
 }
