@@ -20,16 +20,6 @@ header a {
   text-decoration: none;
 }
 
-/*body {
-    max-width: 600px;
-    height: 2000px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    padding: 0;*/
-}
-
 article {
     max-width: 600px;
     height: 2000px;
@@ -54,7 +44,7 @@ h3 {
   padding: 10px;
   background-color: cyan;
   max-width: 600px;
-  text-align: center;
+  text-align: left;
 }
 
 h4 {
