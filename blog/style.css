@@ -9,12 +9,12 @@ html {
     text-align: center;
 }
 
-header {
+/*header {
   margin: 0 auto;
   padding: 0 auto;
   max-width: 800px;
   text-align: center;
-}
+}*/
 
 header a{
   text-decoration: none;
