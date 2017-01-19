@@ -62,9 +62,6 @@ h4 {
 footer {
     position: fixed;
     height: auto;
-    right: 0;
-    bottom: 0;
-    left: 0;
     padding: 10px;
     background-color: cyan;
     text-align: center;
