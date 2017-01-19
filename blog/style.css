@@ -15,15 +15,15 @@ header {
   text-align: center;
 }
 
-a:link {
+header a:link {
     text-decoration: none;
 }
 
-a:visited{
+header a:visited{
     text-decoration: none;
 }
 
-a:hover{
+header a:hover{
     text-decoration: none;
 }
 
