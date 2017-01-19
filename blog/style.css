@@ -10,9 +10,8 @@ html {
 
 header {
   margin: 0 auto;
-  padding: 50px;
+  padding: 0 auto;
   max-width: 800px;
-  background-color: cyan;
 }
 
 body {
