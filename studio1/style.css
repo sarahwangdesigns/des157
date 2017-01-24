@@ -32,12 +32,13 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   margin-top: 25px;
   padding-left: 50px;
+  padding-bottom: 5px;
 }
 
 div {
   float: left;
   margin-top: 290px;
-  margin-left: 50px;
+  margin-left: 40px;
   padding: 0;
   display: inline-block;
   font-size: 12px;
