@@ -30,6 +30,20 @@ article {
     margin-top: 50px;
 }
 
+article a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+article a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+article a:hover {
+  background-color: #4f5b66;
+}
+
 p {
     font-size: 12px;
     width: 800px;
