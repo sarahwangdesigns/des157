@@ -1,7 +1,7 @@
 * {
-  margin:0;
-  padding:0;
-  }
+    margin: 0;
+    padding: 0;
+}
 
 html {
     background: #ffffff;
@@ -9,65 +9,74 @@ html {
     text-align: right;
 }
 
-header a {
-  text-decoration: none;
+header {
+    font-family: 'Overpass Mono', sans-serif;
+    padding: 10px;
+    background-color: #c0c5ce;
+    width: 375px;
+    height: 2000px;
+    text-align: left;
+    float: left;
+    position: fixed;
 }
 
 article {
-    max-width: 600px;
+    width: auto;
     height: 2000px;
-    text-align: right;
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 125px;
+    margin-left: 425px;
+    margin-top: 50px;
 }
-
 
 p {
     font-size: 12px;
-    max-width: 600px;
+    width: 800px;
+    padding: 10px;
     font-family: 'Arvo', serif;
     text-align: left;
+    padding-bottom: 25px;
 }
 
 h3 {
-  font-family: 'Anton', sans-serif;
-  padding: 10px;
-  background-color: cyan;
-  max-width: 600px;
-  text-align: left;
+    font-family: 'Overpass Mono', sans-serif;
+    padding: 10px;
+    background-color: #c0c5ce;
+    width: 800px;
+    text-align: left;
 }
 
 h4 {
-  font-family: 'Arvo', serif;
-  text-align: left;
+    font-family: 'Arvo', serif;
+    text-align: left;
+    padding: 10px;
+    padding-top: 25px;
 }
 
 footer {
-  position: fixed;
-  height: auto;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 10px;
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 14px;
+    position: fixed;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
 }
 
 footer a:link {
-  color: #000000;
-  text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 
 footer a:visited {
-  color: #000000;
-  text-decoration: underline;
+    color: #000000;
+    text-decoration: underline;
 }
 
 footer a:hover {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+    background-color: #000000;
 }
