@@ -60,45 +60,45 @@ li {
   text-align: left;
 }
 
-div #exercises a:link {
+#exercises a:link {
   color: #000000;
   text-decoration: none;
 }
 
-div #exercises a:visited {
+#exercises a:visited {
   color: #000000;
   text-decoration: underline;
 }
 
-div #exercises a:hover {
+#exercises a:hover {
   background-color: cyan;
 }
 
-div #studios a:link {
+#studios a:link {
   color: #000000;
   text-decoration: none;
 }
 
-div #studios a:visited {
+#studios a:visited {
   color: #000000;
   text-decoration: underline;
 }
 
-div #studios a:hover {
+#studios a:hover {
   background-color: magenta;
 }
 
-div #projects a:link {
+#projects a:link {
   color: #000000;
   text-decoration: none;
 }
 
-div #projecs a:visited {
+#projecs a:visited {
   color: #000000;
   text-decoration: underline;
 }
 
-div #projects a:hover {
+#projects a:hover {
   background-color: yellow;
 }
 
