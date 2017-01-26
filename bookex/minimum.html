@@ -34,22 +34,22 @@
     //create a function called min that accepts two numbers
     function minimum(a,b) {
 
-
-      //create varible to hold min of (a,b)
-      var c= Math.min(a,b);
-
-      //return min of (a,b)
-      return c;
-    }
+      //if a is less than b return a otherwise return b
+      if (a < b) {
+        return a;
+      }  else {
+          return b;
+        }
+      }
 
     //two arguments
-    var mini1= Math.min(10,100);
-    var mini2= Math.min(12,20);
+    var mini1= minimum(10,100);
+    var mini2= minimum(20,12);
 
 
     //returns minimum of the following 2 arguments
-    console.log(mini1);
-    console.log(mini2);
+    console.log('min1 is: ' + mini1);
+    console.log('min2 is: ' + mini2);
 
     </script>
 </body>
