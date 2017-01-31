@@ -56,7 +56,9 @@ function processForm() {
 
 //call a new alert() to concatenate a message with fill out for if any areas arent filled
 
-    if (userNoun1 == "" || userNoun2 == "" || userNoun3 == "" || userNoun4 == "" || userNoun5 == "" || userNoun6 == "" || userNoun7 == "" || userNoun8 == "" || userNoun9 == "" || userNoun10 == "" || userNoun11 == "" || userNoun12 == "" || userName1 == "" || userName2 == "" || userName1 == "" || userModeOfTrans1 == "" || userModeOfTrans2 == "" || userModeOfTrans3 == "" ||  userLocation1 == "" || userLocation2 == "" || userSize == "") {
+    if (userNoun1 == ""
+    //|| userNoun2 == "" || userNoun3 == "" || userNoun4 == "" || userNoun5 == "" || userNoun6 == "" || userNoun7 == "" || userNoun8 == "" || userNoun9 == "" || userNoun10 == "" || userNoun11 == "" || userNoun12 == "" || userName1 == "" || userName2 == "" || userName1 == "" || userModeOfTrans1 == "" || userModeOfTrans2 == "" || userModeOfTrans3 == "" ||  userLocation1 == "" || userLocation2 == "" || userSize == ""
+  ) {
         alert('Please fill out the whole form!');
    } else {
         myMsg.className = "show";
