@@ -1,23 +1,96 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+  margin:0px;
+  padding:0px;
 }
 
-html {
-  background: #ffffff;
-  cursor: crosshair;
+body {
+  height: 1000px;
+  /*background: linear-gradient(205deg, #333, indigo);*/
+  background-color:forestgreen;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-footer {
-  position: fixed;
-  height: auto;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 10px;
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 14px;
+h1, article{
+  margin-left:50px;
+}
+
+
+h1 {
+  position:relative;
+  top:5px;
+  left:24px;
+  z-index:1;
+  color: deeppink;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+#fillForm{
+  position:relative;
+  width:45%;
+  padding:24px;
+  padding-top: 100px;
+  color:antiquewhite;
+  border-radius:18px;
+  background-color:#222;
+}
+
+p {
+  margin-top: 24px;
+  padding: 25px;
+  background-color: #444;
+}
+
+div {
+  margin: 5px;
+  margin-top: 10px;
+}
+
+label{
+  width:100px;
+  text-align:right;
+  display:inline-block;
+  padding-right:14px;
+}
+
+input[type="text"]{
+  width:275px;
+  padding:20px;
+  border:none; /*remove default*/
+  border-radius:3px;
+  border-bottom:8px deeppink solid;
+  background-color:hotpink;
+  color:antiquewhite;
+  font-weight:bold;
+  font-size:18px;
+}
+
+input[type=text]:focus {
+  border-bottom:8px cornflowerblue solid;
+  background-color: orange;
+  color:black;
+
+}
+
+input[type="reset"], input[type="submit"] {
+  position:relative;
+  left:125px;
+  top:14px;
+  padding:12px;
+  border:none; /*remove default*/
+  border-radius:3px;
+  border-bottom:4px orange solid;
+  background-color:antiquewhite;
+  color:#333;
+  font-weight:bold;
+  font-size:18px;
+}
+
+#buttons {
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 footer a:link {
