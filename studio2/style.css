@@ -4,9 +4,9 @@
 }
 
 body {
-  height: 1000px;
+  height: 3000px;
   /*background: linear-gradient(205deg, #333, indigo);*/
-  background-color:forestgreen;
+  background-color:	#1a472a;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
@@ -18,29 +18,36 @@ h1, article{
 
 h1 {
   position:relative;
-  top:5px;
-  left:24px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left: 80px;
   z-index:1;
   color: deeppink;
-  font-family: 'Lobster', cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 50px;
   font-weight: normal;
 }
 
 #fillForm{
-  position:relative;
-  width:45%;
-  padding:24px;
-  padding-top: 100px;
+  position:absolute;;
+  width:500px;
+  padding:50px;
+  padding-top: 30px;
+  margin-left: 80px;
   color:antiquewhite;
   border-radius:18px;
   background-color:#222;
 }
 
 p {
-  margin-top: 24px;
+  position:absolute;
+  column-count: 2;
+  max-width:800px;
+  margin-top: 1600px;
+  margin-left: 75px;
   padding: 25px;
-  background-color: #444;
+  font-size: 12px;
+  color: antiquewhite;
 }
 
 div {
@@ -49,22 +56,23 @@ div {
 }
 
 label{
-  width:100px;
-  text-align:right;
+  width:140px;
+  text-align:left;
   display:inline-block;
-  padding-right:14px;
+  padding-right:12px;
+  font-size: 16px;
 }
 
 input[type="text"]{
-  width:275px;
-  padding:20px;
+  width:225px;
+  padding:15px;
   border:none; /*remove default*/
   border-radius:3px;
   border-bottom:8px deeppink solid;
   background-color:hotpink;
   color:antiquewhite;
   font-weight:bold;
-  font-size:18px;
+  font-size:16px;
 }
 
 input[type=text]:focus {
@@ -91,6 +99,18 @@ input[type="reset"], input[type="submit"] {
 #buttons {
   padding-top: 15px;
   padding-bottom: 25px;
+}
+
+footer {
+  position: fixed;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 14px;
 }
 
 footer a:link {

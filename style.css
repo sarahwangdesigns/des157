@@ -103,6 +103,18 @@ li {
   background-color: yellow;
 }
 
+footer {
+  position: fixed;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+
 footer a:link {
   color: #000000;
   text-decoration: none;
