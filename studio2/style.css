@@ -127,6 +127,7 @@ footer {
   background-color: hotpink;
   text-align: center;
   font-size: 14px;
+  font-family: 'Overpass Mono', monospace;
 }
 
 footer a:link {
