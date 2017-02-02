@@ -22,6 +22,17 @@
         h1 {
             margin-bottom: 24px;
         }
+
+/*placement of the images*/
+        #cat {
+          margin-left: 50%;
+          margin-top: 18%;
+        }
+        #hat {
+          margin-left: 50%;
+          margin-top: 20%;
+        }
+
     </style>
 </head>
 
@@ -29,31 +40,34 @@
     <h1>Ch 13-The Cat's Hat</h1>
     <h2>open the console to see the results of the script</h2>
 
+    //place images outside of script to see
+      <p>
+        <img src = "img/cat.png" alt="cat image" id = "cat" style = "position: absolute" width = "74px" height = "120px">
+        <img src = "img/hat.png" alt="hat image" id = "hat" style = "position: absolute" width = "80px" height = "55px">
+      </p>
     <script>
-        < img src = "img/cat.png" alt="cat image"
-        id = "cat"
-        style = "position: absolute" >
-            <
-            img src = "img/hat.png" alt="hat image"
-        id = "hat"
-        style = "position: absolute" >
+
+        //select cat and hat images in JS
             var cat = document.querySelector("#cat");
             var hat = document.querySelector("#hat");
-            var angle = 0,
+            var angle = 0;
             lastTime = null;
         //Extend the cat animation defined earlier so that both the cat and his hat (<img src="img/hat.png">) orbit at opposite sides of the ellipse.
+        //Or make the hat circle around the cat. Or alter the animation in some other interesting way.
         function animate(time) {
             if (lastTime != null)
                 angle += (time - lastTime) * 0.001;
             lastTime = time;
-            cat.style.bottom = (Math.sin(angle) * 20) + "px";
-            cat.style.right = (Math.cos(angle) * 20) + "px";
-            hat.style.top = (Math.sin(angle) * 20) + "px";
-            hat.style.left = (Math.cos(angle) * 20) + "px";
+            //start both images at top and left to move better in CSS
+            //multiple sin and cos angles with smaller numbers to make it circle in a smaller ellipse and bigger numbers vice versa
+            //goal: make hat circle cat
+            cat.style.top = (Math.sin(angle) * 20) + "px";
+            cat.style.left = (Math.cos(angle) * 20) + "px";
+            hat.style.top = (Math.sin(angle) * 150) + "px";
+            hat.style.left = (Math.cos(angle) * 150) + "px";
             requestAnimationFrame(animate);
         }
         requestAnimationFrame(animate);
-
-        // Your code here.
     </script>
 </body>
+</html>
