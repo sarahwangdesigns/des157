@@ -4,8 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> book exercise chapter 14-mouse trail
-in a file titled mouse.html using an inline js script</title>
+    <title> book exercise chapter 14-mouse trail in a file titled mouse.html using an inline js script</title>
     <style>
         * {
             margin: 0px;
@@ -18,10 +17,35 @@ in a file titled mouse.html using an inline js script</title>
             background-color: #333;
             font-size: 11px;
             margin: 24px;
+            background: teal;
         }
 
         h1 {
             margin-bottom: 24px;
+        }
+        /*css for trial element*/
+
+        .dot {
+            height: 8px;
+            width: 8px;
+            border-radius: 4px;
+            /* rounds corners */
+            background: white;
+            position: absolute;
+        }
+
+        .yellowsquare {
+            height: 12px;
+            width: 12px;
+            background: yellow;
+            position: absolute;
+        }
+
+        .orangerectangle {
+            height: 8px;
+            width: 12px;
+            background: orange;
+            position: absolute;
         }
     </style>
 </head>
@@ -31,5 +55,34 @@ in a file titled mouse.html using an inline js script</title>
     <h2>open the console to see the results of the script</h2>
     <script>
         // ADD DESCRIPTIVE COMMENTS BEFORE STATEMENTS AND BLOCK OF CODE
+        // In this exercise, I want you to implement a mouse trail. Use absolutely positioned <div> elements with a fixed size and background color (refer to the code in the “Mouse Clicks” section for an example). Create a bunch of such elements and, when the mouse moves, display them in the wake of the mouse pointer.
+        //
+        // There are various possible approaches here. You can make your solution as simple or as complex as you want. A simple solution to start with is to keep a fixed number of trail elements and cycle through them, moving the next one to the mouse’s current position every time a "mousemove" event occurs.
+
+        addEventListener("mousemove", function(event) {
+            var dot = document.createElement("div");
+            dot.className = "dot";
+            dot.style.left = (event.pageX - 4) + "px";
+            dot.style.top = (event.pageY - 4) + "px";
+            document.body.appendChild(dot);
+        });
+
+        addEventListener("mousemove", function(event) {
+            var yellowsquare = document.createElement("div");
+            yellowsquare.className = "yellowsquare";
+            yellowsquare.style.left = (event.pageX - 25) + "px";
+            yellowsquare.style.top = (event.pageY - 25) + "px";
+            document.body.appendChild(yellowsquare);
+        });
+
+        addEventListener("mousemove", function(event) {
+            var orangerectangle = document.createElement("div");
+            orangerectangle.className = "orangerectangle";
+            orangerectangle.style.left = (event.pageX + 25) + "px";
+            orangerectangle.style.top = (event.pageY + 25) + "px";
+            document.body.appendChild(orangerectangle);
+        });
     </script>
 </body>
+
+</html>
