@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  background-color: #c6e2ff;
+  position: absolute;
+}
+
+p {
+  height:60%;
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  text-align: left;
+  top: 500px;
+  width: 200px;
+  position: absolute;
+}
+
+#mangoinfo {
+  left: 50px;
+  opacity: 0;
+  position: absolute;
+  padding: 25px;
+}
+
+#avocadoinfo {
+  left: 275px;
+  opacity: 0;
+  position: absolute;
+  padding: 25px;
+}
+
+#doginfo {
+  left: 500px;
+  opacity: 0;
+  position: absolute;
+  padding: 25px;
+}
+
+#catinfo {
+  left: 750px;
+  opacity: 0;
+  position: absolute;
+  padding: 25px;
+}
+
+#nickelinfo {
+  left: 1000px;
+  opacity: 0;
+  position: absolute;
+  padding: 25px;
+}
+
+#imgs {
+  position: relative;
+  margin-top: 85px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #000000;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
