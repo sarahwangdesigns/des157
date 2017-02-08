@@ -68,6 +68,14 @@
         });
 
         addEventListener("mousemove", function(event) {
+            var dot = document.createElement("div");
+            dot.className = "dot";
+            dot.style.left = (event.pageX+50) + "px";
+            dot.style.top = (event.pageY+50) + "px";
+            document.body.appendChild(dot);
+        });
+
+        addEventListener("mousemove", function(event) {
             var yellowsquare = document.createElement("div");
             yellowsquare.className = "yellowsquare";
             yellowsquare.style.left = (event.pageX - 25) + "px";
@@ -82,6 +90,15 @@
             orangerectangle.style.top = (event.pageY + 25) + "px";
             document.body.appendChild(orangerectangle);
         });
+
+        addEventListener("mousemove", function(event) {
+            var orangerectangle = document.createElement("div");
+            orangerectangle.className = "orangerectangle";
+            orangerectangle.style.left = (event.pageX - 50) + "px";
+            orangerectangle.style.top = (event.pageY - 50) + "px";
+            document.body.appendChild(orangerectangle);
+        });
+
     </script>
 </body>
 
