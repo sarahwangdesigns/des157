@@ -23,8 +23,9 @@
         h1 {
             margin-bottom: 24px;
         }
-        /*css for trial element*/
 
+        /*css for trail element*/
+        /*dots*/
         .dot {
             height: 8px;
             width: 8px;
@@ -33,14 +34,14 @@
             background: white;
             position: absolute;
         }
-
+        /*yellow squares*/
         .yellowsquare {
             height: 12px;
             width: 12px;
             background: yellow;
             position: absolute;
         }
-
+        /*orange rectangles*/
         .orangerectangle {
             height: 8px;
             width: 12px;
@@ -59,6 +60,8 @@
         //
         // There are various possible approaches here. You can make your solution as simple or as complex as you want. A simple solution to start with is to keep a fixed number of trail elements and cycle through them, moving the next one to the mouse’s current position every time a "mousemove" event occurs.
 
+
+        //dots
         addEventListener("mousemove", function(event) {
             var dot = document.createElement("div");
             dot.className = "dot";
@@ -75,6 +78,7 @@
             document.body.appendChild(dot);
         });
 
+        //yellow squares
         addEventListener("mousemove", function(event) {
             var yellowsquare = document.createElement("div");
             yellowsquare.className = "yellowsquare";
@@ -91,6 +95,8 @@
             document.body.appendChild(orangerectangle);
         });
 
+
+        //orange rectangles
         addEventListener("mousemove", function(event) {
             var orangerectangle = document.createElement("div");
             orangerectangle.className = "orangerectangle";
