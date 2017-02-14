@@ -1,0 +1,102 @@
+// JavaScript Document
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("DOM fully loaded and parsed");
+
+    // all other js here
+
+var pinkheart = document.getElementById('pinkheart');
+var pinkheartTip = document.getElementById('pinkheartTip');
+var purpleheart = document.getElementById('purpleheart');
+var purpleheartTip = document.getElementById('purpleheartTip');
+var blueheart = document.getElementById('blueheart');
+var blueheartTip = document.getElementById('blueheartTip');
+
+// var elements = document.getElementsByTagName('tip');
+// var tipTimer, tipId;
+//
+// for (var i = 0; i < elements.length; i++) {
+// elements[i].addEventListener ('mouseover', function(event){
+//   // what if I wanted to send a parameter ('eat') with the call to showMsg?
+//   tipId = document.getElementById(this.id + "Tip");
+//   tipTimer = setTimeout(showMsg, 1000);
+// });
+//
+// elements[i].addEventListener ('mouseout', function(){
+//   clearTimeout(tipTimer);
+//   tipId.style.opacity = 0;
+// });
+// }
+//
+// function showMsg(){
+//   //can I use "this" to find out which object called the function?
+//   tipId.style.opacity = 1;
+//   tipId.style.transition = 'all 1s';
+// }
+
+var tipTimer;
+
+// pinkheart
+pinkheart.addEventListener ('mouseover', function(){
+  console.log('mouseover on pinkheart');
+  tipTimer = setTimeout(showPinkHeartTip, 1000);
+});
+
+pinkheart.addEventListener ('mouseout', function(){
+  console.log('mouseout on pinkheart');
+  clearTimeout(tipTimer);
+  pinkheartTip.style.opacity = 0;
+});
+
+//purpleheart
+purpleheart.addEventListener ('mouseover', function(){
+  console.log('mouseover on purpleheart');
+  tipTimer = setTimeout(showPurpleHeartTip, 1000);
+});
+
+purpleheart.addEventListener ('mouseout', function(){
+  console.log('mouseout on purpleheart');
+  clearTimeout(tipTimer);
+  purpleheartTip.style.opacity = 0;
+});
+
+//blueheart
+blueheart.addEventListener ('mouseover', function(){
+  console.log('mouseover on blueheart');
+  tipTimer = setTimeout(showBlueHeartTip, 1000);
+});
+
+blueheart.addEventListener ('mouseout', function(){
+  console.log('mouseout on blueheart');
+  clearTimeout(tipTimer);
+  blueheartTip.style.opacity = 0;
+});
+
+
+function showPinkHeartTip(){
+  console.log('showing msg');
+  pinkheartTip.style.opacity = 1;
+  pinkheartTip.style.transition = 'all 1s';
+}
+
+function showPurpleHeartTip(){
+  console.log('showing msg');
+  purpleheartTip.style.opacity = 1;
+  purpleheartTip.style.transition = 'all 1s';
+}
+
+
+function showBlueHeartTip(){
+  console.log('showing msg');
+  blueheartTip.style.opacity = 1;
+  blueheartTip.style.transition = 'all 1s';
+}
+
+
+
+
+
+
+
+
+});
