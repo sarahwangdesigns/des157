@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // all other js here
 
-    alert('You have received 3 Valentines Day sweethearts from a secret admirer! Play each song and roll over each image and to hear the playlist your secret admirer made you.');
 
     var pinkheart = document.getElementById('pinkheart');
     var pinkheartTip = document.getElementById('pinkheartTip');
@@ -13,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var purpleheartTip = document.getElementById('purpleheartTip');
     var blueheart = document.getElementById('blueheart');
     var blueheartTip = document.getElementById('blueheartTip');
+
+    alert('You have received 3 Valentines Day sweethearts from a secret admirer! Play each song and roll over each image and to hear the playlist your secret admirer made you.');
+
 
     var tipTimer;
 
