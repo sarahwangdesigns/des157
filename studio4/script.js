@@ -5,34 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // all other js here
 
+    alert('You have received 3 Valentines Day sweethearts from a secret admirer! Roll over each image and play each song to hear the playlist your secret admirer made you.');
+
 var pinkheart = document.getElementById('pinkheart');
 var pinkheartTip = document.getElementById('pinkheartTip');
 var purpleheart = document.getElementById('purpleheart');
 var purpleheartTip = document.getElementById('purpleheartTip');
 var blueheart = document.getElementById('blueheart');
 var blueheartTip = document.getElementById('blueheartTip');
-
-// var elements = document.getElementsByTagName('tip');
-// var tipTimer, tipId;
-//
-// for (var i = 0; i < elements.length; i++) {
-// elements[i].addEventListener ('mouseover', function(event){
-//   // what if I wanted to send a parameter ('eat') with the call to showMsg?
-//   tipId = document.getElementById(this.id + "Tip");
-//   tipTimer = setTimeout(showMsg, 1000);
-// });
-//
-// elements[i].addEventListener ('mouseout', function(){
-//   clearTimeout(tipTimer);
-//   tipId.style.opacity = 0;
-// });
-// }
-//
-// function showMsg(){
-//   //can I use "this" to find out which object called the function?
-//   tipId.style.opacity = 1;
-//   tipId.style.transition = 'all 1s';
-// }
 
 var tipTimer;
 
