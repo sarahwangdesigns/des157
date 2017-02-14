@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // all other js here
 
-    alert('You have received 3 Valentines Day sweethearts from a secret admirer! Play each song and poll over each image and to hear the playlist your secret admirer made you.');
+    alert('You have received 3 Valentines Day sweethearts from a secret admirer! Play each song and roll over each image and to hear the playlist your secret admirer made you.');
 
     var pinkheart = document.getElementById('pinkheart');
     var pinkheartTip = document.getElementById('pinkheartTip');
