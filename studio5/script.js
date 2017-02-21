@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
             bar.path.setAttribute('stroke', state.color);
         }
     });
-    
+
     bar.animate(0.80); // Number from 0.0 to 0.80
 
 

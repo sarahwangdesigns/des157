@@ -87,6 +87,7 @@ footer {
     font-size: 14px;
 }
 
+
 /*.tip {
     position: absolute;
 		text-align: center;
@@ -100,60 +101,63 @@ footer {
     background-color: #000000;
 }*/
 
-
 #container {
-	position: absolute;
-	text-align: center;
-	display: inline-block;
-  max-width: 200px;
-  height: 8px;
-  font-size: 14px;
-	top: 500px;
-	right: 530px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    max-width: 200px;
+    height: 8px;
+    font-size: 14px;
+    top: 500px;
+    right: 530px;
 }
 
 #pandaCLabel {
-	text-align: left;
+    text-align: left;
 }
 
 
 /* Pulse the images*/
+
 @-webkit-keyframes hvr-pulse {
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-	50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 }
+
 @keyframes hvr-pulse {
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 }
+
 .hvr-pulse {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
 }
+
 .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
-  -webkit-animation-name: hvr-pulse;
-  animation-name: hvr-pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 footer a:link {
