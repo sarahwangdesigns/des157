@@ -105,11 +105,11 @@ footer {
 	position: absolute;
 	text-align: center;
 	display: inline-block;
-  width: 200px;
+  max-width: 200px;
   height: 8px;
   font-size: 14px;
-	top: 475px;
-	right: 515px;
+	top: 500px;
+	right: 530px;
 }
 
 #pandaCLabel {
