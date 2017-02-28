@@ -87,19 +87,7 @@ footer {
     font-size: 14px;
 }
 
-
-/*.tip {
-    position: absolute;
-		text-align: center;
-    display: inline-block;
-		font-family: 'Pangolin', cursive;
-    padding: 12px;
-    border-radius: 8px;
-    width: 2.3in;
-    font-size: 20px;
-    color: #ABC178;
-    background-color: #000000;
-}*/
+/* progress bar area*/
 
 #container {
     position: absolute;
@@ -111,6 +99,8 @@ footer {
     top: 500px;
     right: 530px;
 }
+
+/* endangered label */
 
 #pandaCLabel {
     text-align: left;
