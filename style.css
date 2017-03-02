@@ -10,6 +10,7 @@ html {
 
 body {
   width: auto;
+  height: auto;
   text-align: center;
   font-family: 'Overpass Mono', monospace;
   line-height: 1.5;
