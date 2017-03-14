@@ -102,15 +102,6 @@ header {
     animation-timing-function: linear;
 }
 
-
-/*#textOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 80%;
-}*/
-
 button {
     margin: 0 auto;
     padding: 0;
@@ -118,7 +109,7 @@ button {
     background-color: transparent;
 }
 
-aside {
+#factSheet {
     font-size: 36px;
     margin: auto 0;
     padding: 0;
@@ -133,13 +124,13 @@ aside {
     opacity: .85;
 }
 
-aside p {
+#factSheet p {
     position: relative;
     top: 40%;
     text-align: center;
 }
 
-aside #close {
+section #close {
     position: absolute;
     top: 5%;
     right: 30px;
@@ -174,7 +165,7 @@ li {
     opacity: 0;
 }
 
-aside #PFSheet {
+section#factSheet {
   text-align: left;
 }
 
