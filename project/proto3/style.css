@@ -68,7 +68,7 @@ header {
     text-align: center;
 }
 
-section {
+#buttons {
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -168,10 +168,18 @@ li {
     text-align: center;
     position: relative;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 30px;
     color: #222;
     background-color: white;
     opacity: 0;
+}
+
+aside #PFSheet {
+  text-align: left;
+}
+
+#buttons:hover{
+  opacity:.5;
 }
 
 footer {
