@@ -2,6 +2,12 @@
   document.addEventListener("DOMContentLoaded", function(event) {
       console.log("DOM fully loaded and parsed");
 
+
+//alert to give instructions what to do
+
+alert('Hover over image to see the name of the animal. Click on image to view the fact sheet');
+
+
       //get descriptions as elements
 
       var panda = document.getElementById('gPanda');
