@@ -46,7 +46,7 @@
 
       var tipTimer;
 
-      var elements = document.querySelectorAll("li");
+      var elements = document.querySelectorAll(".buttons");
       console.log("loop");
       for (var i = 0; i < elements.length; i++) {
           console.log(elements[i].nodeName);
@@ -54,7 +54,7 @@
           elements[i].addEventListener('mouseover', function() {
               console.log("mouseover");
               var child = this.lastElementChild;
-              tipTimer = setTimeout(showMsg, 500, child);
+            tipTimer = setTimeout( showMsg, 0, child);
           });
 
           elements[i].addEventListener('mouseout', function() {

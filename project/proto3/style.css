@@ -75,33 +75,6 @@ header {
     display: inline-block;
 }
 
-
-/* pulse animation */
-
-.button {
-    margin: auto 0;
-    padding: 0;
-    display: inline-block;
-    text-align: center;
-}
-
-@keyframes pulse_animation {
-    50% {
-        transform: scale(0.9);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
-
-.pulse:hover, .pulse:focus, .pulse:active {
-    animation-name: pulse_animation;
-    animation-duration: 1s;
-    transform-origin: 50% 50%;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
 button {
     margin: 0 auto;
     padding: 0;
@@ -136,7 +109,7 @@ section #close {
     right: 30px;
 }
 
-ul {
+/*ul {
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -151,16 +124,18 @@ li {
     font-size: 72px;
     color: #0e7bae;
     text-decoration: none;
-}
+}*/
 
 .tip {
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    position: relative;
+    position: absolute;
+    float: left;
+    display: inline-block;
     border-radius: 8px;
     font-size: 30px;
-    color: #222;
+    color: black;
     background-color: white;
     opacity: 0;
 }
@@ -169,7 +144,7 @@ section#factSheet {
   text-align: left;
 }
 
-#buttons:hover{
+.buttons:hover{
   opacity:.6;
 }
 
