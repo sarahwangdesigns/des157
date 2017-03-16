@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     //get descriptions as elements
 
-    var panda = document.getElementById('gPanda');
+    var panda = document.getElementById('pandaTip');
     var leopard = document.getElementById('aLeopard');
+    var leopard = document.getElementById('bTiger');
+    var leopard = document.getElementById('gPenguin');
 
     //system
     var factSheet = document.getElementById('factSheet');
@@ -65,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 
     function showMsg(element) {
-        element.style.opacity = 1;
+        element.style.opacity = .75;
         element.style.transition = 'all 1s';
     }
 
