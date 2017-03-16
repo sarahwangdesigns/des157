@@ -90,8 +90,11 @@ main {
     margin: auto 0;
     padding: 0;
     position: fixed;
+    top: 0px;
+    /*right: 0px;*/
+    left: 10%;
     width: 80%;
-    height: 80%;
+    height: 100%;
     background-color: #000;
     color: white;
     display: none;
