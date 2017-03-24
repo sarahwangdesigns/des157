@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshph2.innerHTML = "Reasons for Endangerment";
         fshp2.innerHTML = "Borneo Pygmy Elephants are endangered due to habitat loss. Shrinking forests due to logging, expanding argiculture, and new plam oil plantations has caused these elephants to come in contact with humans more frequently as more humans settle around the area.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "Elephants contribute the the biodiversity of the area and play a part in seed dispersal as they are herbivores. When a Borneo Pygmy Elephant is protected, so is the nature and other species found in the area also protected.";
+        fshp3.innerHTML = "Elephants contribute the the biodiversity because when a Borneo Pygmy Elephant is protected, so is the nature and other species found in the area also protected.";
         link.innerHTML = 'Learn more about Borneo Pygmy Elephants and how you can help from the <a href="https://www.worldwildlife.org/species/borneo-pygmy-elephant">source!</a>';
         factSheet.style.display = "block";
     })
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshph2.innerHTML = "Reasons for Endangerment";
         fshp2.innerHTML = "Currently, Honey Bees are endangered in the U.S. mainly due to a phenomenon called Colony Collapse Disorder. In addition, overwintering and the climate change, and environmental changes are suspected to have played a role in the decline of Honey Bees.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "Not only would Honey Bees decrease biodiversity, but will have serious effects on the livelyhood and nutrition of every organism that consumes certain plantlife, fruits, nuts, and vegatables. In addition, without Honey Bees pollinating our food, allowing our food to flourish and grow, this would have economic impacts to the food supply and food suppliers.";
+        fshp3.innerHTML = "Not only would Honey Bees decrease biodiversity, but will have serious effects on the livelyhood and nutrition of every organism that consumes certain plantlife, fruits, nuts, and vegatables.";
         link.innerHTML = 'Learn more about Honey Bees and how you can help from the <a href="http://honeybeehealthcoalition.org/">source!</a>';
         factSheet.style.display = "block";
     })
