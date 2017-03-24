@@ -48,7 +48,7 @@ var player;
       fshp2.innerHTML="Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
       fshph3.innerHTML="Why Should We Care?";
       fshp3.innerHTML="Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-      link.innerHTML = 'Learn more about Amur Leopards <a href="https://www.worldwildlife.org/species/amur-leopard">here!</a>';
+      link.innerHTML = 'Learn more about Amur Leopards from the <a href="https://www.worldwildlife.org/species/amur-leopard">source!</a>';
         factSheet.style.display = "block";
     })
 

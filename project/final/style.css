@@ -102,6 +102,8 @@ main {
 
 section#factSheet {
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #video {
@@ -132,15 +134,19 @@ section#factSheet {
 #fsh3 {
   text-align: left;
   margin-left: 5%;
-  margin-top: 2%;
+  margin-top: 4%;
   color: red;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #factSheet p {
   text-align: left;
   margin-left: 5%;
   width: 400px;
+}
+
+#info {
+  margin-top: 2%;
 }
 
 #fshph1, #fshph2, #fshph3 {
@@ -159,7 +165,7 @@ section#factSheet {
   text-align: right;
   font-size: 16px;
   bottom: 5%;
-  right: 22%;
+  right: 18%;
 }
 
 #link a:link {
