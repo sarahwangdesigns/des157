@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Currently, Honey Bees are endangered in the U.S. mainly due to a phenomenon called Colony Collapse Disorder. In addition, overwintering and the climate change, and environmental changes are suspected to have played a role in the decline of Honey Bees.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Not only would Honey Bees decrease biodiversity, but will have serious effects on the livelyhood and nutrition of every organism that consumes certain plantlife, fruits, nuts, and vegatables.";
-        link.innerHTML = 'Learn more about Honey Bees and how you can help from the <a href="http://honeybeehealthcoalition.org/">source!</a>';
+        link.innerHTML = 'Learn more about Honey Bees and how you can help from the <a href="http://honeybeehealthcoalition.org/"> source!</a>';
         factSheet.style.display = "block";
     })
 
