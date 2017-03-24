@@ -232,27 +232,27 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 10px;
+    padding: 8px;
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer a:link {
     color: #000000;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
 }
 
 footer a:visited {
     color: #000000;
     text-decoration: underline;
-    padding: 10px;
+    padding: 8px;
 }
 
 footer a:hover {
     color: #ffffff;
     background-color: #ABC178;
-    padding: 10px;
+    padding: 8px;
 }
