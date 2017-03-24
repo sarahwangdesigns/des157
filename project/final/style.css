@@ -62,8 +62,8 @@ body {
 }
 
 header h1 {
-  margin: 0px auto;
-  padding: 0;
+    margin: 0px auto;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
@@ -72,8 +72,8 @@ header h1 {
 }
 
 header h2 {
-  margin: 0px auto;
-  padding: 0;
+    margin: 0px auto;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 14px;
@@ -82,7 +82,7 @@ header h2 {
 }
 
 main {
-  width: 90%;
+    width: 90%;
 }
 
 .buttons {
@@ -111,74 +111,73 @@ main {
 }
 
 section#factSheet {
-  font-family: 'Roboto', sans-serif;
-  margin: 0 auto;
-  padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
 }
 
 #video {
-  float: right;
-  text-align: right;
-  margin-right: 10%;
-  margin-bottom: 25%;
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 25%;
 }
 
 #fsh1 {
-  text-align: left;
-  margin-top: 2%;
-  margin-left: 5%;
-
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 #fsh2 {
-  text-align: left;
-  margin-left: 5%;
+    text-align: left;
+    margin-left: 5%;
 }
 
 #fsh1, #fsh2 {
-  line-height: 1.3em;
-  width: 400px;
-  font-size: 16px;
-  font-weight: bold;
+    line-height: 1.3em;
+    width: 400px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #fsh3 {
-  text-align: left;
-  margin-left: 5%;
-  margin-top: 2%;
-  color: red;
-  font-size: 26px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: red;
+    font-size: 26px;
 }
 
 #factSheet p {
-  text-align: left;
-  margin-left: 5%;
-  width: 400px;
+    text-align: left;
+    margin-left: 5%;
+    width: 400px;
 }
 
 #info {
-  margin-top: 2%;
+    margin-top: 2%;
 }
 
 #fshph1, #fshph2, #fshph3 {
-  margin-top: 1%;
-  font-size: 14px;
-  line-height: 2em;
-  font-weight: bold;
+    margin-top: 1%;
+    font-size: 14px;
+    line-height: 2em;
+    font-weight: bold;
 }
 
 #fshp1, #fshp2, #fshp3 {
-  font-size: 12px;
-  line-height: 1.3em;
-  font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.3em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #link {
-  position: relative;
-  text-align: right;
-  font-size: 16px;
-  bottom: 5%;
-  left: 44%;
+    position: relative;
+    text-align: right;
+    font-size: 16px;
+    bottom: 5%;
+    left: 44%;
 }
 
 #link a:link {
@@ -195,7 +194,6 @@ section#factSheet {
     background-color: #ABC178;
 }
 
-
 section #close {
     position: absolute;
     top: 5%;
@@ -203,15 +201,15 @@ section #close {
 }
 
 .learnMore {
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  padding: 5px;
-  font-size: 14px;
-  border: 3px solid white;
-  border-radius: 10px;
-  width: 100px;
-  opacity: 1;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    opacity: 1;
 }
 
 .tip {
@@ -230,13 +228,15 @@ section #close {
 }
 
 img {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* for IE8 and earlier */
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* for IE8 and earlier */
 }
 
 img:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100); /* for IE8 and earlier */
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* for IE8 and earlier */
 }
 
 footer {

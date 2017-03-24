@@ -54,13 +54,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     aTiger.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Amur (Siberian) Tiger";
-      fsh2.innerHTML = "Scientific Name: Panthera tigris altaica<br>Other Names: Siberian Tiger<br>Status: ENDANGERED";
+        fsh2.innerHTML = "Scientific Name: Panthera tigris altaica<br>Other Names: Siberian Tiger<br>Status: ENDANGERED";
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 540";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/D1NgHOkehKA' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
         fshp1.innerHTML = "Amur Tigers live in the temperate forests of the Sichate-Alin range in the Primorski and Khabarovsk Provinces or the Russian Far East and the borders of China and possibly North Korea and weight up to 396-660 lbs.";
         fshph2.innerHTML = "Reasons for Endangerment";
-        fshp2.innerHTML = "The main cause for the endangerment of Amur Tigers is due to poaching the tiger because of the high demand of tiger parts on the market in East Asia." ;
+        fshp2.innerHTML = "The main cause for the endangerment of Amur Tigers is due to poaching the tiger because of the high demand of tiger parts on the market in East Asia.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur Tigers are predators, controlling the overpopulation of prey. Amur Tigers also contribute to the biodiversity of the region and is an economic resource for local communities.";
         link.innerHTML = 'Learn more about Amur Tigers and how you can help from the<a href="https://www.worldwildlife.org/species/amur-tiger">source!</a>';
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     bTiger.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Bengal Tiger";
-      fsh2.innerHTML = "Scientific Name: Panthera tigris tigris<br>Other Names: N/A<br>Status: ENDANGERED";
+        fsh2.innerHTML = "Scientific Name: Panthera tigris tigris<br>Other Names: N/A<br>Status: ENDANGERED";
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 2,500";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/vA3lAK-ZW8c' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     rhino.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Black Rhino";
-      fsh2.innerHTML = "Scientific Name: Diceros bicornis<br>Other Names: N/A<br>Status: CRITICALLY ENDANGERED";
+        fsh2.innerHTML = "Scientific Name: Diceros bicornis<br>Other Names: N/A<br>Status: CRITICALLY ENDANGERED";
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 5,000";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/jKV4BPHme6w' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     elephant.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Borneo Pygmy Elephant";
-      fsh2.innerHTML = "Scientific Name: Elephas maximus borneensis<br>Other Names: N/A<br>Status: ENDANGERED";
+        fsh2.innerHTML = "Scientific Name: Elephas maximus borneensis<br>Other Names: N/A<br>Status: ENDANGERED";
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 1,500";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/jKV4BPHme6w' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     bee.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Honey Bee";
-      fsh2.innerHTML = "Scientific Name: Apis mellifera<br>Other Names: Worker Bees<br>Status: VULNERABLE";
+        fsh2.innerHTML = "Scientific Name: Apis mellifera<br>Other Names: Worker Bees<br>Status: VULNERABLE";
         fsh3.innerHTML = "ESTIMATED REMAINING:<br>approx. 28-33% loss from 2007-2011 and increasing each year";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/ykq3q5XDjnY' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
