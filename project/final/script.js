@@ -54,8 +54,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     aTiger.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Amur (Siberian) Tiger";
-      fsh2.innerHTML = "Scientific Name: Panthera pardus orientalis<br>Other Names: Far East Leopard<br>Status: CRITICALLY ENDANGERED";
-        fsh3.innerHTML = "ESTIMATED<br>REMAINING: 450";
+      fsh2.innerHTML = "Scientific Name: Panthera tigris altaica<br>Other Names: Siberian Tiger<br>Status: ENDANGERED";
+        fsh3.innerHTML = "ESTIMATED<br>REMAINING: 540";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/D1NgHOkehKA' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
         fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
@@ -63,13 +63,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-        link.innerHTML = 'Learn more about Amur Tigers <a href="https://www.worldwildlife.org/species/amur-tiger">here!</a>';
+        link.innerHTML = 'Learn more about Amur Tigers from the<a href="https://www.worldwildlife.org/species/amur-tiger">source!</a>';
         factSheet.style.display = "block";
     })
 
     bTiger.addEventListener('click', function() {
         fsh1.innerHTML = "Name: Bengal Tiger";
-      fsh2.innerHTML = "Scientific Name: Panthera pardus orientalis<br>Other Names: Far East Leopard<br>Status: ENDANGERED";
+      fsh2.innerHTML = "Scientific Name: Panthera tigris tigris<br>Other Names: N/A<br>Status: ENDANGERED";
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 2,500";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/vA3lAK-ZW8c' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-        link.innerHTML = 'Learn more about Bengal Tigers <a href="https://www.worldwildlife.org/species/bengal-tiger">here!</a>';
+        link.innerHTML = 'Learn more about Bengal Tigers from the<a href="https://www.worldwildlife.org/species/bengal-tiger">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-        link.innerHTML = 'Learn more about Black Rhinos <a href="https://www.worldwildlife.org/species/black-rhino">here!</a>';
+        link.innerHTML = 'Learn more about Black Rhinos from the<a href="https://www.worldwildlife.org/species/black-rhino">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-        link.innerHTML = 'Learn more about Borneo Pygmy Elephants <a href="https://www.worldwildlife.org/species/borneo-pygmy-elephant">here!</a>';
+        link.innerHTML = 'Learn more about Borneo Pygmy Elephants from the <a href="https://www.worldwildlife.org/species/borneo-pygmy-elephant">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
-        link.innerHTML = 'Learn more about Honey Bees <a href="https://en.wikipedia.org/wiki/Honey_bee">here!</a>';
+        link.innerHTML = 'Learn more about Honey Bees from the<a href="https://en.wikipedia.org/wiki/Honey_bee">source!</a>';
         factSheet.style.display = "block";
     })
 
