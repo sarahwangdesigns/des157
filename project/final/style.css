@@ -58,7 +58,7 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     width: 100%;
-    height: 800px;
+    height: 1000px;
 }
 
 header {
@@ -78,7 +78,7 @@ main {
 .buttons {
     margin: 0 auto;
     padding: 0;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     width: 300px;
     height: 300px;
@@ -91,9 +91,8 @@ main {
     padding: 0;
     position: fixed;
     top: 0%;
-    /*right: 0px;*/
-    left: 5%;
-    width: 90%;
+    left: 0%;
+    width: 100%;
     height: 100%;
     background-color: #000;
     color: white;
@@ -101,16 +100,87 @@ main {
     opacity: .85;
 }
 
-#factSheet p {
-    position: relative;
-    top: 40%;
-    text-align: center;
+section#factSheet {
+  font-family: 'Roboto', sans-serif;
 }
+
+#video {
+  position: absolute;
+  text-align: right;
+  right: 10%;
+  bottom: 25%;
+}
+
+#fsh1 {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 5%;
+
+}
+
+#fsh2 {
+  text-align: left;
+  margin-left: 5%;
+}
+
+#fsh1, #fsh2 {
+  line-height: 1.3em;
+  width: 400px;
+  font-size: 16px;
+}
+
+#fsh3 {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 2%;
+  color: red;
+  font-size: 24px;
+}
+
+#factSheet p {
+  text-align: left;
+  margin-left: 5%;
+  width: 400px;
+}
+
+#fshph1, #fshph2, #fshph3 {
+  margin-top: 1%;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+#fshp1, #fshp2, #fshp3 {
+  font-size: 12px;
+  line-height: 1.3em;
+}
+
+#link {
+  position: relative;
+  text-align: right;
+  font-size: 16px;
+  bottom: 5%;
+  right: 22%;
+}
+
+#link a:link {
+    color: #ffffff;
+}
+
+#link a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#link a:hover {
+    color: #ffffff;
+    background-color: #ABC178;
+}
+
 
 section #close {
     position: absolute;
     top: 5%;
-    right: 30px;
+    right: 3%;
 }
 
 .learnMore {
@@ -128,20 +198,16 @@ section #close {
 .tip {
     margin: 0 auto;
     padding: 8px;
-    bottom: 91px;
+    bottom: 90px;
     text-align: center;
     position: relative;
     width: 284px;
     display: inline;
     float: left;
-    font-size: 28px;
+    font-size: 26px;
     color: white;
     background-color: black;
     opacity: 0;
-}
-
-section#factSheet {
-  text-align: left;
 }
 
 img {
