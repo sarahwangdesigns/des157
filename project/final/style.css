@@ -129,12 +129,13 @@ section#factSheet {
   line-height: 1.3em;
   width: 400px;
   font-size: 16px;
+  font-weight: bold;
 }
 
 #fsh3 {
   text-align: left;
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 2%;
   color: red;
   font-size: 26px;
 }
@@ -153,11 +154,13 @@ section#factSheet {
   margin-top: 1%;
   font-size: 16px;
   line-height: 2em;
+  font-weight: bold;
 }
 
 #fshp1, #fshp2, #fshp3 {
   font-size: 12px;
   line-height: 1.3em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #link {
