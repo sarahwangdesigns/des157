@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "The main cause for the endangerment of Amur Tigers is due to poaching the tiger because of the high demand of tiger parts on the market in East Asia.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Amur Tigers are predators, controlling the overpopulation of prey. Amur Tigers also contribute to the biodiversity of the region and is an economic resource for local communities.";
-        link.innerHTML = 'Learn more about Amur Tigers and how you can help from the<a href="https://www.worldwildlife.org/species/amur-tiger">source!</a>';
+        link.innerHTML = 'Learn more about Amur Tigers and how you can help from the <a href="https://www.worldwildlife.org/species/amur-tiger">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Despite the international ban on tiger tradein 1933, the main cause tiger populations continue to decimate is due to the continued practice of poaching and trading of tigers illegally to be used as status symbols. decorative items, and folk cures.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Tigers are vital in maintaining biodiversity. Each tiger protected helps protect 25,000 acres of forest land that supplies both nature and people water and food to maintain health.";
-        link.innerHTML = 'Learn more about Bengal Tigers and how you can help from the<a href="https://www.worldwildlife.org/species/bengal-tiger">source!</a>';
+        link.innerHTML = 'Learn more about Bengal Tigers and how you can help from the <a href="https://www.worldwildlife.org/species/bengal-tiger">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshp2.innerHTML = "Illegal poaching levels of the horns of Black Rhinos are at record levels in South and East Africa due to poverty and consumers requesting the horns for folk rememdies.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Rhinos are a source of income from ecotourism in the countries they are found in. Large areas of land and other species found in the area, such as elephants, are also being conserved and protected in the process of protecting Black rhins.";
-        link.innerHTML = 'Learn more about Black Rhinos and how you can help from the<a href="https://www.worldwildlife.org/species/black-rhino">source!</a>';
+        link.innerHTML = 'Learn more about Black Rhinos and how you can help from the <a href="https://www.worldwildlife.org/species/black-rhino">source!</a>';
         factSheet.style.display = "block";
     })
 
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshph1.innerHTML = "Description";
         fshp1.innerHTML = "Bornero Pygmy Elephants are found in the forests of Borneo and Sumatra. Borneo Pygmy Elephants can grow up to 8.2-9.8 feet tall, making them the smallest elephants in Asia.";
         fshph2.innerHTML = "Reasons for Endangerment";
-        fshp2.innerHTML = "Borneo Pygmy Elephants are endangered due to habitat loss. Shrinking forests due to logging, expanding argiculture, and new plam oil plantations has caused these elephants to come in contact with humans more frequently as more humans settle around the area. This increased human settlement and urbanization has created human-elephant conflict in the region as people set up illegal snares to prevent elephants from entering their settlement, but as a result, injure the elephants.";
+        fshp2.innerHTML = "Borneo Pygmy Elephants are endangered due to habitat loss. Shrinking forests due to logging, expanding argiculture, and new plam oil plantations has caused these elephants to come in contact with humans more frequently as more humans settle around the area.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Elephants contribute the the biodiversity of the area and play a part in seed dispersal as they are herbivores. When a Borneo Pygmy Elephant is protected, so is the nature and other species found in the area also protected.";
         link.innerHTML = 'Learn more about Borneo Pygmy Elephants and how you can help from the <a href="https://www.worldwildlife.org/species/borneo-pygmy-elephant">source!</a>';
@@ -120,10 +120,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fshph1.innerHTML = "Description";
         fshp1.innerHTML = "Honey Bees are a size of a small paperclip and are found all over the environment and the world, growing in colonies and swarms anywhere they can start a hive and thrive.";
         fshph2.innerHTML = "Reasons for Endangerment";
-        fshp2.innerHTML = "Currently, Honey Bees are endangered in the U.S. mainly due to a phenomenon called Colony Collapse Disorder. Colony Collapse Disorder occurs when the majority of the worker bees in a colony disappear and leave behind the queen bee with food and a few nurse bees to take care of the immature bees and the queen bee remaining. In addition, overwintering and the climate change, and environmental changes are suspected to have played a role in the decline of Honey Bees.";
+        fshp2.innerHTML = "Currently, Honey Bees are endangered in the U.S. mainly due to a phenomenon called Colony Collapse Disorder. In addition, overwintering and the climate change, and environmental changes are suspected to have played a role in the decline of Honey Bees.";
         fshph3.innerHTML = "Why Should We Care?";
         fshp3.innerHTML = "Not only would Honey Bees decrease biodiversity, but will have serious effects on the livelyhood and nutrition of every organism that consumes certain plantlife, fruits, nuts, and vegatables. In addition, without Honey Bees pollinating our food, allowing our food to flourish and grow, this would have economic impacts to the food supply and food suppliers.";
-        link.innerHTML = 'Learn more about Honey Bees and how you can help from the<a href="http://honeybeehealthcoalition.org/">source!</a>';
+        link.innerHTML = 'Learn more about Honey Bees and how you can help from the <a href="http://honeybeehealthcoalition.org/">source!</a>';
         factSheet.style.display = "block";
     })
 
