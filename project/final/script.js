@@ -58,11 +58,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 450";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/D1NgHOkehKA' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
-        fshp1.innerHTML = "sdsdsddsd";
-        fshph2.innerHTML = "Reasons for endangerment";
-        fshp2.innerHTML = "sddsddd";
+        fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
+        fshph2.innerHTML = "Reasons for Endangerment";
+        fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "sddsddd";
+        fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
         link.innerHTML = 'Learn more about Amur Tigers <a href="https://www.worldwildlife.org/species/amur-tiger">here!</a>';
         factSheet.style.display = "block";
     })
@@ -73,11 +73,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 2,500";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/vA3lAK-ZW8c' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
-        fshp1.innerHTML = "sdsdsddsd";
-        fshph2.innerHTML = "Reasons for endangerment";
-        fshp2.innerHTML = "sddsddd";
+        fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
+        fshph2.innerHTML = "Reasons for Endangerment";
+        fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "sddsddd";
+        fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
         link.innerHTML = 'Learn more about Bengal Tigers <a href="https://www.worldwildlife.org/species/bengal-tiger">here!</a>';
         factSheet.style.display = "block";
     })
@@ -88,11 +88,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 5,000";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/jKV4BPHme6w' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
-        fshp1.innerHTML = "sdsdsddsd";
-        fshph2.innerHTML = "Reasons for endangerment";
-        fshp2.innerHTML = "sddsddd";
+        fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
+        fshph2.innerHTML = "Reasons for Endangerment";
+        fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "sddsddd";
+        fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
         link.innerHTML = 'Learn more about Black Rhinos <a href="https://www.worldwildlife.org/species/black-rhino">here!</a>';
         factSheet.style.display = "block";
     })
@@ -103,11 +103,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fsh3.innerHTML = "ESTIMATED<br>REMAINING: 1,500";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/jKV4BPHme6w' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
-        fshp1.innerHTML = "sdsdsddsd";
-        fshph2.innerHTML = "Reasons for endangerment";
-        fshp2.innerHTML = "sddsddd";
+        fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
+        fshph2.innerHTML = "Reasons for Endangerment";
+        fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "sddsddd";
+        fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
         link.innerHTML = 'Learn more about Borneo Pygmy Elephants <a href="https://www.worldwildlife.org/species/borneo-pygmy-elephant">here!</a>';
         factSheet.style.display = "block";
     })
@@ -118,11 +118,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fsh3.innerHTML = "ESTIMATED REMAINING:<br>44% loss in population in 2015-2016";
         document.getElementById('video').innerHTML = "<iframe title='YouTube video player'   type=\'text/html\' width='560' height='315' src='https://www.youtube.com/embed/ykq3q5XDjnY' frameborder='0' allowFullScreen></iframe>";
         fshph1.innerHTML = "Description";
-        fshp1.innerHTML = "sdsdsddsd";
-        fshph2.innerHTML = "Reasons For Endangerment";
-        fshp2.innerHTML = "sddsddd";
+        fshp1.innerHTML = "Amur leopards live in the temperate, broadleaf, and mixed forest region of the Russian Far East. Amur leopards had a lean and strong built, weighing in at 70-105 lbs and the average life span of amur leopards is 10-15 years.";
+        fshph2.innerHTML = "Reasons for Endangerment";
+        fshp2.innerHTML = "Amur leopards are mainly hunted and poached for their luxurious and unique spotted fur by hunters and poaches since there are nearby villages around the forest regions that amur leopards inhabit.";
         fshph3.innerHTML = "Why Should We Care?";
-        fshp3.innerHTML = "sddsddd";
+        fshp3.innerHTML = "Amur leopards are important predators, keeping prey species also in the areas, such as roe deer, sika deer, and hare, from overpopulating the area.";
         link.innerHTML = 'Learn more about Honey Bees <a href="https://en.wikipedia.org/wiki/Honey_bee">here!</a>';
         factSheet.style.display = "block";
     })
